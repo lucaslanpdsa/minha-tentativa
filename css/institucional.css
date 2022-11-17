@@ -1,0 +1,79 @@
+.institucional{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .institucional{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+
+  .institucional__texto{
+    width: 271px;
+  }
+  
+}
+
+.institucional__titulo{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: 
+  #4F4C4C;
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .institucional__titulo{
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+
+.institucional__descricao{
+  font-size: 15px;
+  color: #666666;
+  margin: 15px 0;
+}
+
+.institucional__contato{color: #666666;}
+
+.institucional__rua{
+  font-size: 23px;
+  line-height: 32.32px;
+  color: #666666;
+}
+
+.institucional__estato{
+  font-size: 24px;
+  line-height: 32.68px;
+  color:#666666;
+}
+
+.institucional__numero{
+  font-size: 19px;
+  color: #666666;
+  width: 100%;
+}
+
+.ou{
+  line-height: 34.56px;
+  color: #666666;
+}
+
+.institucional__email{
+  font-size: 19px;
+  line-height: 34.56px;
+  color: #0084ff;
+}
+
+.institucional__numero{
+  margin-top: 25px;
+}

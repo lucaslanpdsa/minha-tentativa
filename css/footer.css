@@ -1,0 +1,41 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+@media screen and (min-width:1024px){
+    .footer{
+      padding: 2.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 2.5em;
+}
+
+.footer__links{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+@media screen and (min-width:1024px){
+  .footer__links{
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+
+
+.link{line-height: 48px;}

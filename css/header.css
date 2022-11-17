@@ -1,0 +1,42 @@
+.cabecalho__topo{
+  background-color: #00161C;
+  text-align: center;
+  padding: 0 1.5rem 1rem;
+}
+
+@media screen and (min-width: 768px){
+  .cabecalho__topo{padding: 0 1.5rem 3rem;}
+}
+
+@media  screen and (min-width:1024px){
+  .cabecalho{
+    background-image: url(../img/bg-intro.jpg);
+  }
+
+  .cabecalho__topo{ 
+    background-color: transparent; 
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;}
+}
+
+.cabecalho__topo__nav{
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho__topo__lista{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cabecalho-topo__nav--item{
+  color: #FFFFFF;
+  font-size: 17px;
+  line-height: 17.6px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
